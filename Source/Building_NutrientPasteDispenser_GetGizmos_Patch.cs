@@ -33,7 +33,7 @@ namespace AutoNutrientPaste
 
             // 调用 PatchAll()。这个强大的方法会自动扫描当前整个程序集（即我们的 .dll 文件），
             // 寻找所有带有 [HarmonyPatch] 属性的类，并自动应用它们。
-            harmony.PatchAll();
+            harmony.PatchAll(typeof(HarmonyPatches).Assembly);
         }
     }
 

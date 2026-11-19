@@ -6,7 +6,16 @@
   
   <supportedVersions>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
+
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
   
   <loadAfter>
     <li>brrainz.harmony</li>
@@ -16,6 +25,7 @@
 原作者：xiaotuzaizi
 持久化修复：WorldLeader
 
+支持 RimWorld 1.6 和 1.7。
 为营养膏机添加两个独立的、可一键切换的生产模式。
 
 本版本修复
@@ -34,6 +44,7 @@
 Original author: xiaotuzaizi
 Persistence fix by: WorldLeader
 
+Supports RimWorld 1.6 and 1.7.
 Adds two separate, one-click production modes to the nutrient paste dispenser.
 
 Fix in this version

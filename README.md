@@ -5,7 +5,7 @@
 - 原作者：`xiaotuzaizi`
 - 持久化修复：`WorldLeader`
 - Package ID：`worldleader.autonutrientpaste`
-- 目标游戏版本：RimWorld 1.6
+- 目标游戏版本：RimWorld 1.6 / 1.7
 
 ## 本版本修复
 
@@ -22,9 +22,10 @@
 
 ```powershell
 dotnet build .\Source\AutoNutrientPaste.csproj -c Release
+dotnet build .\Source\AutoNutrientPaste.1.7.csproj -c Release
 ```
 
-编译结果会输出到 `Assemblies/AutoNutrientPaste.dll`。
+编译结果分别输出到 `1.6/Assemblies` 和 `1.7/Assemblies`。游戏会通过 `LoadFolders.xml` 只加载当前版本的 DLL。
 
 ## License
 
