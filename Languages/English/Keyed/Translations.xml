@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- ... 其他翻译键保持不变 ... -->
+  <ANP_SettingsCategory>Auto Nutrient Paste</ANP_SettingsCategory>
+  <ANP_LowerThresholdLabel>Production Floor (Start below this):</ANP_LowerThresholdLabel>
+  <ANP_UpperThresholdLabel>Production Ceiling (Stop at this):</ANP_UpperThresholdLabel>
+  <ANP_HopperControlLabel>Manage hopper filters when idle (Smart Mode only)</ANP_HopperControlLabel>
+  <ANP_HopperControlTooltip>If enabled, automatically clears the filters of adjacent hoppers when stock is full, and restores them when production is needed.</ANP_HopperControlTooltip>
+  <ANP_ApplyNowButton>Apply Settings Immediately</ANP_ApplyNowButton>
+
+  <!-- Gizmo (已更新) -->
+  <ANP_GizmoLabel_Smart>Smart Production</ANP_GizmoLabel_Smart>
+  <ANP_GizmoTooltip_Smart>Toggle smart production. Produces nutrient paste only when the count is below the lower threshold, and stops when it reaches the upper threshold.</ANP_GizmoTooltip_Smart>
+  
+  <ANP_GizmoLabel_Continuous>Continuous Production</ANP_GizmoLabel_Continuous>
+  <ANP_GizmoTooltip_Continuous>Toggle continuous production. Produces nutrient paste as long as there are ingredients and power, ignoring all thresholds.</ANP_GizmoTooltip_Continuous>
+</LanguageData>

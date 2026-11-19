@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- ... 其他翻译键保持不变 ... -->
+  <ANP_SettingsCategory>自动营养膏机</ANP_SettingsCategory>
+  <ANP_LowerThresholdLabel>生产下限 (低于此值开始):</ANP_LowerThresholdLabel>
+  <ANP_UpperThresholdLabel>生产上限 (生产直到此值):</ANP_UpperThresholdLabel>
+  <ANP_HopperControlLabel>停止制作时清空储料斗设置 (仅智能模式)</ANP_HopperControlLabel>
+  <ANP_HopperControlTooltip>如果启用，当营养膏库存充足时，会自动清空所有相连储料斗的存储设置，并在需要生产时恢复它们。</ANP_HopperControlTooltip>
+  <ANP_ApplyNowButton>立即应用</ANP_ApplyNowButton>
+
+  <!-- Gizmo (已更新) -->
+  <ANP_GizmoLabel_Smart>智能制作</ANP_GizmoLabel_Smart>
+  <ANP_GizmoTooltip_Smart>开启/关闭智能制作模式。仅当营养膏数量低于下限时才生产，直到达到上限为止。</ANP_GizmoTooltip_Smart>
+
+  <ANP_GizmoLabel_Continuous>连续制作</ANP_GizmoLabel_Continuous>
+  <ANP_GizmoTooltip_Continuous>开启/关闭连续制作模式。只要有原料和电力就会一直生产，忽略所有阈值。</ANP_GizmoTooltip_Continuous>
+</LanguageData>

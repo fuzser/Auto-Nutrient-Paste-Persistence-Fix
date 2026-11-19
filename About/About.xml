@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>worldleader.autonutrientpaste</packageId>
+  <name>TRUE Auto Nutrient Paste (真·自动营养膏机) - 持久化 Bug 修复版</name>
+  <author>WorldLeader</author>
+  
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  
+  <description><![CDATA[
+原作者：xiaotuzaizi
+持久化修复：WorldLeader
+
+为营养膏机添加两个独立的、可一键切换的生产模式。
+
+本版本修复
+• 修复“智能制作”和“连续制作”的选中状态没有正确写入及恢复存档的问题。
+• 现在选择模式后保存并退出游戏，重新进入该存档时仍会保持选中状态。
+
+主要功能
+• 智能模式：按设定的库存上下限自动生产和停止。
+• 连续模式：无视库存，只要有原料就持续生产。
+• 智能储料斗（可选）：智能模式下，库存充足时自动禁用储料斗。
+• 智能校正：下限高于上限时自动修正设置。
+• 独立开关按钮，激活时显示为绿色。
+
+--------------------------------------------------
+
+Original author: xiaotuzaizi
+Persistence fix by: WorldLeader
+
+Adds two separate, one-click production modes to the nutrient paste dispenser.
+
+Fix in this version
+• Fixed Smart Production and Continuous Production selections not being saved and restored correctly.
+• After saving and quitting, the selected mode remains active when the save is loaded again.
+
+Main features
+• Smart Mode: Produces and stops automatically according to the configured stock limits.
+• Continuous Mode: Keeps producing while ingredients and power are available.
+• Smart Hoppers (optional): Disables connected hoppers when stock is full.
+• Smart correction for invalid threshold settings.
+• Separate toggle buttons that turn green when active.
+]]></description>
+
+</ModMetaData>
